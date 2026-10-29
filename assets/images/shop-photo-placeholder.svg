@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Shop photo placeholder</title>
+  <desc id="description">Replace with a real photo of Lakeside Laundry Services in Lakeside, Pokhara.</desc>
+  <rect width="1200" height="760" fill="#e6f3ef"/>
+  <path d="M0 620h1200" stroke="#146c70" stroke-width="3" opacity=".35"/>
+  <path d="M420 245h360v375H420z" fill="#fff" stroke="#146c70" stroke-width="8"/>
+  <path d="m390 250 210-125 210 125" fill="none" stroke="#146c70" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M470 295h260v65H470z" fill="#146c70"/>
+  <text x="600" y="338" fill="#fff" font-family="system-ui,sans-serif" font-size="25" font-weight="700" text-anchor="middle">LAKESIDE LAUNDRY</text>
+  <text x="600" y="440" fill="#143a40" font-family="system-ui,sans-serif" font-size="29" font-weight="700" text-anchor="middle">REAL SHOP PHOTO</text>
+  <text x="600" y="490" fill="#526b70" font-family="system-ui,sans-serif" font-size="23" text-anchor="middle">Replace this labeled placeholder</text>
+</svg>

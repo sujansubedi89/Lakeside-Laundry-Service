@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/sitemap.xml
