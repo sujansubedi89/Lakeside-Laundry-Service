@@ -1,11 +1,29 @@
+@'
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/</loc></url>
-  <url><loc>https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/express-laundry.html</loc></url>
-  <url><loc>https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/laundry-pickup-delivery.html</loc></url>
-  <url><loc>https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/hotel-hostel-laundry.html</loc></url>
-  <url><loc>https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/trekking-gear-cleaning.html</loc></url>
-  <url><loc>https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/wash-and-fold.html</loc></url>
-  <url><loc>https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/prices.html</loc></url>
-  <url><loc>https://[PLACEHOLDER: your GitHub Pages or custom domain URL]/contact.html</loc></url>
+  <url>
+    <loc>https://sujansubedi89.github.io/Lakeside-Laundry-Service/</loc>
+  </url>
+  <url>
+    <loc>https://sujansubedi89.github.io/Lakeside-Laundry-Service/express-laundry.html</loc>
+  </url>
+  <url>
+    <loc>https://sujansubedi89.github.io/Lakeside-Laundry-Service/laundry-pickup-delivery.html</loc>
+  </url>
+  <url>
+    <loc>https://sujansubedi89.github.io/Lakeside-Laundry-Service/hotel-hostel-laundry.html</loc>
+  </url>
+  <url>
+    <loc>https://sujansubedi89.github.io/Lakeside-Laundry-Service/trekking-gear-cleaning.html</loc>
+  </url>
+  <url>
+    <loc>https://sujansubedi89.github.io/Lakeside-Laundry-Service/wash-and-fold.html</loc>
+  </url>
+  <url>
+    <loc>https://sujansubedi89.github.io/Lakeside-Laundry-Service/prices.html</loc>
+  </url>
+  <url>
+    <loc>https://sujansubedi89.github.io/Lakeside-Laundry-Service/contact.html</loc>
+  </url>
 </urlset>
+'@ | Set-Content -Encoding utf8 sitemap.xml
