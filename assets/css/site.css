@@ -629,6 +629,31 @@ h3 {
   height: auto;
 }
 
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 1rem;
+}
+
+.photo-grid figure {
+  margin: 0;
+}
+
+.photo-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1280 / 963;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  object-fit: cover;
+}
+
+.photo-grid figcaption {
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .map-frame {
   display: block;
   width: 100%;

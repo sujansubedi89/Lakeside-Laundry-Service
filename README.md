@@ -8,13 +8,13 @@ Four business registration, identity, and utility-bill scans were found in `asse
 
 ## Before launch
 
-Search the repository for `[PLACEHOLDER:` and replace every remaining item with verified business information. Keep the business name exactly `Lakeside Laundry Services`. Do not publish unconfirmed rates, hours, turnaround promises, pickup areas, reviews, or service claims.
+Search the repository for `[PLACEHOLDER:` and replace the remaining site-origin, custom-domain, and GA4 values before launch. The supplied phone, address, coordinates, opening hours, express options, delivery areas, and service details are already configured. Keep the business name exactly `Lakeside Laundry Services`. Prices intentionally remain quote-only; do not add rates until supplied and approved. No review count or rating was provided, so none is shown.
 
-Set the canonical, Open Graph, sitemap, and robots URLs to the actual site origin. Configure the WhatsApp number in `assets/js/site.js` using digits only, including the country code and excluding `+`. Replace each phone placeholder with the verified international number. Add only confirmed services and actual prices. Edit the JSON-LD opening hours, coordinates, street address, service area, and business profile links to match the real business and Google Business Profile. Remove the social profile placeholder if there is no corresponding profile.
+Set the canonical, Open Graph, sitemap, and robots URLs to the actual site origin. The WhatsApp number and `tel:` links use the supplied number. Confirm the JSON-LD NAP, opening hours, coordinates, service area, and Google Maps business search match the live business listing before launch. Add prices only if you later choose to publish verified rates. No social profile URL was supplied or added.
 
-Set `GA_MEASUREMENT_ID` in `assets/js/site.js` to the actual `G-...` measurement ID to enable analytics. With the placeholder present, GA4 is not loaded. Set the Google Maps iframe to the verified business location after confirming the address.
+Set `GA_MEASUREMENT_ID` in `assets/js/site.js` to the actual `G-...` measurement ID to enable analytics. With the placeholder present, GA4 is not loaded. The contact map and directions use the supplied Lakeside Road Zone coordinates.
 
-Replace the shop image placeholder using the guidance and 41 descriptive filename suggestions in `assets/images/README.md`. The listed photo names are suggestions, not existing assets. Use real business photos only.
+The homepage already uses the supplied storefront street-view photo in WebP with its original JPEG fallback. See `assets/images/README.md` for the supplied storefront photos and optional filename suggestions. The listed suggestions are not claims that additional images exist. Use real business photos only.
 
 The `CNAME` file contains a placeholder. Replace its entire contents with your verified custom domain before using a custom domain; delete the file if you will use only the default `github.io` address.
 
@@ -27,9 +27,9 @@ The `CNAME` file contains a placeholder. Replace its entire contents with your v
 
 ## Pre-launch checklist
 
-- [ ] Search for and replace every `[PLACEHOLDER:` value; remove `CNAME` when no custom domain is used.
+- [ ] Replace the remaining site-origin and GA4 placeholders; remove `CNAME` when no custom domain is used.
 - [ ] Test every WhatsApp link and order-helper form on a real phone.
-- [ ] Confirm phone, address, opening hours, service area, and prices match the business and Google Business Profile.
+- [ ] Confirm phone, address, opening hours, service area, and free-delivery terms match the business and Google Maps listing.
 - [ ] Validate JSON-LD with Google's Rich Results Test; remove optional schema entries that are not real.
 - [ ] Run PageSpeed Insights on the published mobile site.
 - [ ] Confirm GA4 events `whatsapp_click`, `phone_click`, and `order_helper_submit` fire with the intended page and button-location parameters.

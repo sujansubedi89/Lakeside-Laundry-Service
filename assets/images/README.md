@@ -1,6 +1,6 @@
-# Shop Photo Placeholders
+# Shop Photos
 
-The homepage uses the supplied `Lakeside-laundry-services-street-view.jpeg` photo and its optimized `lakeside-laundry-services-street-view.webp` copy. The JPEG original is retained as fallback. The three supplied storefront photos are `Lakeside-laundry-services-frontage-active.jpeg`, `Lakeside-laundry-services-storefront.jpeg`, and `Lakeside-laundry-services-street-view.jpeg`. Keep business registration, identity, utility-bill, and other administrative scans private; do not publish them as website images.
+The homepage uses the supplied `Lakeside-laundry-services-street-view.jpeg` photo and its optimized `lakeside-laundry-services-street-view.webp` copy. Its photo gallery also uses the supplied `Lakeside-laundry-services-frontage-active.jpeg` and `Lakeside-laundry-services-storefront.jpeg`, each with an optimized WebP source. All JPEG originals are retained as fallbacks. Keep business registration, identity, utility-bill, and other administrative scans private; do not publish them as website images.
 
 For additional supplied photos, use a descriptive filename and a WebP `<source>` plus a real JPEG fallback. Do not reference a WebP source until that file exists, or browsers can show a broken image instead of the fallback. Describe only what is visible in each photo, and retain explicit width and height attributes. The hero image is intentionally not lazy-loaded.
 
